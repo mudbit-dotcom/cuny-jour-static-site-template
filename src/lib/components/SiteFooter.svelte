@@ -9,7 +9,7 @@ USAGE EXAMPLE:
 <SiteFooter />
 -->
 <script>
-  import { base } from '$app/paths';
+  import { asset } from '$app/paths';
 </script>
 
 <footer class="site-footer">
@@ -18,7 +18,7 @@ USAGE EXAMPLE:
     <div class="footer-logo">
       <a href="https://www.journalism.cuny.edu/">
         <img 
-          src="{base}/cuny-footer-logo.svg" 
+          src={asset('/cuny-footer-logo.svg')} 
           alt="Craig Newmark Graduate School of Journalism at CUNY"
           class="cuny-logo"
         />

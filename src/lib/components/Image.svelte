@@ -15,7 +15,7 @@ USAGE EXAMPLE:
 />
 -->
 <script>
-  import { base } from '$app/paths';
+  import { asset } from '$app/paths';
   
   let {
     src,                    // Required: Image source URL
@@ -25,11 +25,11 @@ USAGE EXAMPLE:
     size = 'full',          // 'full', 'large', 'medium', 'small'
   } = $props();
 
-  // Prepend base path to local images (those starting with /)
-  // but not to external URLs (http://, https://, //, data:)
+  // Resolve local images (those starting with /) using asset()
+  // but not external URLs (http://, https://, //, data:)
   const resolvedSrc = $derived(
     src.startsWith('/') && !src.startsWith('//') 
-      ? `${base}${src}` 
+      ? asset(src) 
       : src
   );
 </script>
