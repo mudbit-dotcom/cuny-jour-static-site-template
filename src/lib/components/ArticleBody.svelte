@@ -28,7 +28,7 @@ USAGE EXAMPLE:
   .article-body {
     font-family: var(--font-sans);
     font-size: var(--font-size-base);
-    line-height: 1.75;
+    line-height: var(--leading-relaxed);
     color: var(--color-text);
   }
 

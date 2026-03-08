@@ -12,9 +12,7 @@
    =========================================== */
 :root {
   /* NYCity News Service Colors */
-  --color-cuny-blue: #0033A1;     /* CUNY Blue (PMS 286) */
-  --color-accent: #0033A1;        /* CUNY Blue as accent */
-  --color-accent-hover: #002880;
+  --color-accent: #0033A1;        /* CUNY Blue (PMS 286) */
   --color-dark: #1a1a1a;
   --color-text: #333333;
   --color-white: #ffffff;
@@ -22,7 +20,7 @@
   --color-medium-gray: #666666;
   --color-border: #e0e0e0;
   --color-shadow: rgba(0, 0, 0, 0.1);
-  
+
   /* CUNY Blue Gradient Colors */
   --color-cuny-blue-dark: #002266;
   --color-cuny-blue-light: #0066CC;
@@ -38,6 +36,12 @@
   --font-size-base: 1rem;     /* 16px */
   --font-size-lg: 1.125rem;   /* 18px */
   --font-size-xl: 1.25rem;    /* 20px */
+
+  /* Line Heights */
+  --leading-tight: 1.15;
+  --leading-snug: 1.3;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
 
   /* Spacing - use these for consistent margins and padding */
   --spacing-xs: 0.5rem; /* 8px */
@@ -75,11 +79,10 @@ html {
 body {
   font-family: var(--font-sans);
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: var(--leading-normal);
   color: var(--color-text);
   background-color: var(--color-white);
 }
-
 /* ===========================================
    Typography
    =========================================== */
@@ -91,22 +94,22 @@ h5,
 h6 {
   font-family: var(--font-serif);
   font-weight: 400;
-  line-height: 1.2;
+  line-height: var(--leading-tight);
   margin-bottom: var(--spacing-sm);
   color: var(--color-dark);
 }
 
 h1 {
-  font-size: 2.75rem;
+  font-size: var(--font-size-4xl);
   font-weight: 400;
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: var(--font-size-3xl);
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: var(--font-size-2xl);
 }
 
 p {
@@ -148,14 +151,14 @@ img {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: var(--font-size-3xl);
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: var(--font-size-2xl);
   }
 
   h3 {
-    font-size: 1.25rem;
+    font-size: var(--font-size-xl);
   }
 }

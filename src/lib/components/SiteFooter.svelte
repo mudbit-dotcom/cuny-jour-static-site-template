@@ -66,7 +66,7 @@ USAGE EXAMPLE:
     color: var(--color-dark);
     text-decoration: none;
     font-family: var(--font-sans);
-    font-size: 0.875rem;
+    font-size: var(--font-size-sm);
     font-weight: 700;
     letter-spacing: 0.05em;
     transition: color 0.2s ease;

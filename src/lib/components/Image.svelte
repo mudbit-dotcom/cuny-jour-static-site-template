@@ -95,7 +95,7 @@ USAGE EXAMPLE:
   .caption-container {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: var(--spacing-xs);
     padding-top: var(--spacing-xs);
     margin-top: var(--spacing-xs);
   }

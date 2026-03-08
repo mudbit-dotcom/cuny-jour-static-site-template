@@ -48,7 +48,7 @@ SiteHeader.svelte — NYCity News Service Style Header
     background: linear-gradient(
       90deg,
       var(--color-cuny-blue-dark) 0%,
-      var(--color-cuny-blue) 50%,
+      var(--color-accent) 50%,
       var(--color-cuny-blue-light) 100%
     );
     background-size: 200% 100%;
