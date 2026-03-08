@@ -12,6 +12,9 @@ Use it for headers, footers, and navigation that appear on all pages.
   import SiteHeader from '$lib/components/SiteHeader.svelte';
   import SiteFooter from '$lib/components/SiteFooter.svelte';
 
+  // Access page-level settings (from +page.js)
+  import { page } from '$app/state';
+
   // In Svelte 5, we use $props() to receive the page content
   let { children } = $props();
 
@@ -29,14 +32,18 @@ Use it for headers, footers, and navigation that appear on all pages.
   ];
 </script>
 
-<SiteHeader {navLinks} />
+{#if page.data.showHeader !== false}
+  <SiteHeader {navLinks} />
+{/if}
 
 <main>
   <!-- This renders the current page's content -->
   {@render children()}
 </main>
 
-<SiteFooter />
+{#if page.data.showFooter !== false}
+  <SiteFooter />
+{/if}
 
 <style>
   /* Styles here only apply to this layout */
