@@ -92,10 +92,3 @@ This is your page!
   />
 
 </div>
-
-<style>
-  /* Styles here only apply to this page */
-  .container {
-    padding: var(--spacing-lg) var(--spacing-md);
-  }
-</style>
