@@ -12,13 +12,11 @@ Use it for headers, footers, and navigation that appear on all pages.
   import SiteHeader from '$lib/components/SiteHeader.svelte';
   import SiteFooter from '$lib/components/SiteFooter.svelte';
 
+  // Access page-level settings (from +page.js)
+  import { page } from '$app/state';
+
   // In Svelte 5, we use $props() to receive the page content
   let { children } = $props();
-
-  // Set to false to hide the NYCity News Service header
-  let showHeader = true;
-  // Set to false to hide the site footer
-  let showFooter = true;
 
   // Navigation links for the header (matching real NYCity News Service)
   const navLinks = [
@@ -34,7 +32,7 @@ Use it for headers, footers, and navigation that appear on all pages.
   ];
 </script>
 
-{#if showHeader}
+{#if page.data.showHeader !== false}
   <SiteHeader {navLinks} />
 {/if}
 
@@ -43,7 +41,7 @@ Use it for headers, footers, and navigation that appear on all pages.
   {@render children()}
 </main>
 
-{#if showFooter}
+{#if page.data.showFooter !== false}
   <SiteFooter />
 {/if}
 
