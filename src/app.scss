@@ -100,16 +100,16 @@ h6 {
 }
 
 h1 {
-  font-size: var(--font-size-4xl);
+  font-size: 2.75rem;
   font-weight: 400;
 }
 
 h2 {
-  font-size: var(--font-size-3xl);
+  font-size: 1.75rem;
 }
 
 h3 {
-  font-size: var(--font-size-2xl);
+  font-size: 1.5rem;
 }
 
 p {
@@ -149,16 +149,15 @@ img {
   html {
     font-size: 15px;
   }
-
-  h1 {
-    font-size: var(--font-size-3xl);
-  }
-
-  h2 {
-    font-size: var(--font-size-2xl);
-  }
-
-  h3 {
-    font-size: var(--font-size-xl);
-  }
+   h1 {
+     font-size: 1.75rem;
+   }
+   
+   h2 {
+     font-size: 1.5rem;
+   }
+   
+   h3 {
+     font-size 1.25rem;
+   }
 }
