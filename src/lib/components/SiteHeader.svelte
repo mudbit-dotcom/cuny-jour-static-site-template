@@ -97,9 +97,9 @@ SiteHeader.svelte — NYCity News Service Style Header
     color: var(--color-accent);
     font-family: var(--font-sans);
     font-size: var(--font-size-sm);
-    font-weight: 800;
-    padding: 0.15rem 0.35rem;
-    letter-spacing: 0.02em;
+    font-weight: var(--font-weight-extrabold);
+    padding: var(--logo-padding-mobile);
+    letter-spacing: var(--letter-spacing-wide);
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -109,9 +109,9 @@ SiteHeader.svelte — NYCity News Service Style Header
     color: var(--color-white);
     font-family: var(--font-sans);
     font-size: var(--font-size-sm);
-    font-weight: 300;
-    padding: 0.15rem 0.35rem;
-    letter-spacing: -0.01em;
+    font-weight: var(--font-weight-light);
+    padding: var(--logo-padding-mobile);
+    letter-spacing: var(--letter-spacing-tight);
     display: flex;
     align-items: center;
   }
@@ -135,16 +135,16 @@ SiteHeader.svelte — NYCity News Service Style Header
     text-decoration: none;
     font-family: var(--font-sans);
     font-size: var(--font-size-xs);
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     text-transform: uppercase;
-    letter-spacing: 0.02em;
+    letter-spacing: var(--letter-spacing-wide);
     white-space: nowrap;
-    transition: opacity 0.2s ease;
+    transition: var(--transition-opacity);
   }
 
   .nav-link:hover {
     color: var(--color-white);
-    opacity: 0.8;
+    opacity: var(--opacity-hover);
     text-decoration: none;
   }
 
@@ -156,13 +156,13 @@ SiteHeader.svelte — NYCity News Service Style Header
     }
 
     .logo-nycity {
-      font-size: 1rem;
-      padding: 0.2rem 0.4rem;
+      font-size: var(--font-size-base);
+      padding: var(--logo-padding-desktop);
     }
 
     .logo-news-service {
-      font-size: 1rem;
-      padding: 0.2rem 0.4rem;
+      font-size: var(--font-size-base);
+      padding: var(--logo-padding-desktop);
     }
 
     .main-nav {

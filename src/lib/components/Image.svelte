@@ -73,17 +73,17 @@ USAGE EXAMPLE:
 
   .size-large {
     width: 100%;
-    max-width: 720px;
+    max-width: var(--max-width-image-large);
   }
 
   .size-medium {
     width: 100%;
-    max-width: 480px;
+    max-width: var(--max-width-image-medium);
   }
 
   .size-small {
     width: 100%;
-    max-width: 320px;
+    max-width: var(--max-width-image-small);
   }
 
   .image {
@@ -102,7 +102,7 @@ USAGE EXAMPLE:
 
   .caption {
     font-size: var(--font-size-sm);
-    line-height: 1.4;
+    line-height: var(--leading-caption);
     color: var(--color-text);
   }
 

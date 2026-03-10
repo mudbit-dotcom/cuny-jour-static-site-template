@@ -14,33 +14,33 @@
 <style>
   .big-number {
     text-align: center;
-    padding: 1.5rem;
+    padding: var(--spacing-md);
     background-color: var(--color-accent);
-    color: white;
-    border-radius: 8px;
+    color: var(--color-white);
+    border-radius: var(--border-radius-sm);
   }
 
   .number {
     display: block;
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: var(--font-size-display);
+    font-weight: var(--font-weight-bold);
     color: var(--color-white);
-    line-height: 1.2;
+    line-height: var(--leading-heading);
   }
 
   .label {
     display: block;
-    font-size: 1rem;
+    font-size: var(--font-size-base);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-top: 0.5rem;
+    letter-spacing: var(--letter-spacing-wider);
+    margin-top: var(--spacing-xs);
   }
 
   .footnote {
     display: block;
-    font-size: 0.75rem;
+    font-size: var(--font-size-xs);
     color: var(--color-white);
-    margin-top: 0.25rem;
+    margin-top: var(--spacing-xxs);
     font-style: italic;
   }
 </style>

@@ -51,16 +51,16 @@ USAGE EXAMPLE:
     gap: var(--spacing-sm);
     font-family: var(--font-sans);
     font-size: var(--font-size-sm);
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: var(--letter-spacing-wider);
     color: var(--color-dark);
     margin-bottom: var(--spacing-md);
 
     &::after {
       content: '';
       flex: 1;
-      height: 2px;
+      height: var(--border-width-divider);
       background-color: var(--color-accent);
     }
   }
@@ -86,12 +86,12 @@ USAGE EXAMPLE:
   .link {
     font-family: var(--font-serif);
     font-size: var(--font-size-lg); // Mobile-first: smaller size
-    font-weight: 400;
+    font-weight: var(--font-weight-normal);
     color: var(--color-dark);
     text-decoration: none;
-    line-height: 1.3;
+    line-height: var(--leading-snug);
     display: block;
-    transition: color 0.2s ease;
+    transition: var(--transition-color);
 
     &:hover {
       color: var(--color-accent);

@@ -8,16 +8,16 @@
 
 <style>
   .row {
-    margin: 2rem 0;
+    margin: var(--spacing-lg) 0;
     display: flex;
-    gap: 1rem;
+    gap: var(--spacing-sm);
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .row > :global(*) {
     flex: 1;
-    min-width: 200px;
-    max-width: 300px;
+    min-width: var(--dashboard-item-min-width);
+    max-width: var(--dashboard-item-max-width);
   }
 </style>

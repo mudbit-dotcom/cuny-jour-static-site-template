@@ -75,9 +75,9 @@ USAGE EXAMPLE:
   /* Mobile-first: smaller headline, stacked meta */
   .headline {
     font-family: var(--font-serif);
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1.15;
+    font-size: var(--font-size-5xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--leading-tight);
     margin-bottom: var(--spacing-sm);
     color: var(--color-dark);
   }
@@ -99,7 +99,7 @@ USAGE EXAMPLE:
     font-size: var(--font-size-sm);
     color: var(--color-medium-gray);
     text-transform: uppercase;
-    letter-spacing: 0.02em;
+    letter-spacing: var(--letter-spacing-wide);
   }
 
   .meta-icon {
@@ -108,14 +108,14 @@ USAGE EXAMPLE:
   }
 
   .byline {
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
     color: var(--color-dark);
   }
 
   /* Tablet and up: larger headline, inline meta */
   @include tablet {
     .headline {
-      font-size: 2.75rem;
+      font-size: var(--font-size-6xl);
     }
 
     .meta {
