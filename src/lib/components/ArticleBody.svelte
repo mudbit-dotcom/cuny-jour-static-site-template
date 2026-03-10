@@ -55,8 +55,8 @@ USAGE EXAMPLE:
   /* Subheadings within article */
   .article-body :global(h2) {
     font-family: var(--font-serif);
-    font-size: 1.75rem;
-    font-weight: 400;
+    font-size: var(--font-size-4xl);
+    font-weight: var(--font-weight-normal);
     margin-top: var(--spacing-xl);
     margin-bottom: var(--spacing-sm);
     color: var(--color-dark);
@@ -64,8 +64,8 @@ USAGE EXAMPLE:
 
   .article-body :global(h3) {
     font-family: var(--font-serif);
-    font-size: 1.375rem;
-    font-weight: 400;
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-normal);
     margin-top: var(--spacing-lg);
     margin-bottom: var(--spacing-sm);
     color: var(--color-dark);
@@ -78,7 +78,7 @@ USAGE EXAMPLE:
     padding: var(--spacing-sm) var(--spacing-sm);
     font-style: italic;
     font-size: var(--font-size-lg);
-    line-height: 1.6;
+    line-height: var(--leading-normal);
     color: var(--color-dark);
   }
 
@@ -99,14 +99,14 @@ USAGE EXAMPLE:
 
   /* Strong/Bold text */
   .article-body :global(strong) {
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
   }
 
   /* Tablet and up: larger text */
   @include tablet {
     .article-body {
       font-size: var(--font-size-lg);
-      line-height: 1.8;
+      line-height: var(--leading-loose);
     }
 
     .article-body :global(blockquote) {

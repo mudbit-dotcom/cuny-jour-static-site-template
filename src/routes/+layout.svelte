@@ -48,6 +48,6 @@ Use it for headers, footers, and navigation that appear on all pages.
 <style>
   /* Styles here only apply to this layout */
   main {
-    min-height: calc(100vh - 200px); /* Ensure footer stays at bottom */
+    min-height: calc(100vh - var(--site-chrome-height)); /* Ensure footer stays at bottom */
   }
 </style>

@@ -52,14 +52,14 @@ USAGE EXAMPLE:
   }
 
   .cuny-logo {
-    max-width: 400px;
+    max-width: var(--max-width-footer-logo);
     height: auto;
     margin: 0 auto;
-    transition: opacity 0.2s ease;
+    transition: var(--transition-opacity);
   }
 
   .footer-logo a:hover .cuny-logo {
-    opacity: 0.7;
+    opacity: var(--opacity-hover-faint);
   }
 
   .footer-link {
@@ -67,9 +67,9 @@ USAGE EXAMPLE:
     text-decoration: none;
     font-family: var(--font-sans);
     font-size: var(--font-size-sm);
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    transition: color 0.2s ease;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-wider);
+    transition: var(--transition-color);
   }
 
   .footer-link:hover {
