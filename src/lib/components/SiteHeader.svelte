@@ -23,7 +23,7 @@ SiteHeader.svelte — NYCity News Service Style Header
     {#if navLinks.length > 0}
       <nav class="main-nav" aria-label="Main navigation">
         <ul class="nav-list">
-          {#each navLinks as link}
+          {#each navLinks as link (link.href)}
             <li>
               <a href={link.href} class="nav-link">{link.label}</a>
             </li>

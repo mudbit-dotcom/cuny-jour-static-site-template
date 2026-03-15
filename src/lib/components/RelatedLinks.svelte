@@ -27,7 +27,7 @@ USAGE EXAMPLE:
       <span class="title-text">{title}</span>
     </h2>
     <ul class="link-list">
-      {#each links as link}
+      {#each links as link (link.href)}
         <li class="link-item">
           <a href={link.href} class="link">
             {link.headline}
