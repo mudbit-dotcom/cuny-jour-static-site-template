@@ -30,6 +30,8 @@ This template includes a [Storybook](https://storybook.js.org/) documentation ap
 
 It is published alongside the main site at [palewire.github.io/cuny-jour-static-site-template/storybook/](https://palewire.github.io/cuny-jour-static-site-template/storybook/).
 
+When you make a page based on the storybook will publish at `https://<your-github-username>.github.io/<your-repository-name>/storybook/`
+
 ### Run Storybook locally
 
 ```bash
