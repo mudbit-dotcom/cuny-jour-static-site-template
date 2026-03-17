@@ -11,19 +11,19 @@
 /** @type {import('@storybook/sveltekit').StorybookConfig} */
 const config = {
   // Story files: look for .stories.svelte files in the src directory
-  stories: ['../src/**/*.stories.svelte'],
+  stories: ["../src/**/*.stories.svelte"],
 
   // Addons enhance Storybook with extra features
   addons: [
     // Autodocs renderer for Svelte stories
-    '@storybook/addon-docs',
+    "@storybook/addon-docs",
     // Svelte CSF: allows writing stories as .svelte files (cleaner for slot/children content)
-    '@storybook/addon-svelte-csf',
+    "@storybook/addon-svelte-csf",
   ],
 
   // Use the SvelteKit framework (handles $app/* mocks, $lib aliases, SCSS, etc.)
   framework: {
-    name: '@storybook/sveltekit',
+    name: "@storybook/sveltekit",
     options: {},
   },
 
@@ -34,7 +34,7 @@ const config = {
 
   // Enable auto-generated documentation pages for components tagged with 'autodocs'
   docs: {
-    autodocs: 'tag',
+    autodocs: "tag",
   },
 };
 
