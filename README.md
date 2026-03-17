@@ -57,6 +57,10 @@ When deployed to GitHub Pages, the Storybook is published alongside the main sit
 https://<your-github-username>.github.io/<your-repository-name>/storybook/
 ```
 
+The live Storybook for this template is at:
+
+https://palewire.github.io/cuny-jour-static-site-template/storybook/
+
 ### Adding stories
 
 Story files live in `src/stories/` and use the `.stories.svelte` format powered by [`@storybook/addon-svelte-csf`](https://github.com/storybookjs/addon-svelte-csf). Each story file corresponds to one component and contains multiple named variants that demonstrate different props and states.
