@@ -26,27 +26,27 @@
 <!-- Default: three BigNumber cards in a row -->
 <Story name="Default">
   <Dashboard>
-    <BigNumber number="42%" label="Response Rate" />
-    <BigNumber number="3,500" label="Residents Surveyed" />
-    <BigNumber number="$1.2M" label="Annual Budget Cut" />
+    <BigNumber number="5" label="First Amendment Freedoms" />
+    <BigNumber number="72 Days" label="Nellie Bly's World Record" />
+    <BigNumber number="1883" label="Year of 'The New Colossus'" />
   </Dashboard>
 </Story>
 
 <!-- Two Stats: two-card layout -->
 <Story name="Two Stats">
   <Dashboard>
-    <BigNumber number="127" label="Schools Affected" />
-    <BigNumber number="1 in 5" label="Students Qualify" footnote="Source: NYC DOE, 2023" />
+    <BigNumber number="330,000" label="People per Square Mile" />
+    <BigNumber number="1 in 3" label="New Yorkers Born Abroad" footnote="Reflecting a city of newcomers" />
   </Dashboard>
 </Story>
 
 <!-- Four Stats: four-card layout that wraps on small screens -->
 <Story name="Four Stats">
   <Dashboard>
-    <BigNumber number="58%" label="Graduation Rate" />
-    <BigNumber number="2,100" label="Teachers Hired" />
-    <BigNumber number="$400M" label="Capital Investment" />
-    <BigNumber number="83" label="New Schools" footnote="Over the next 5 years" />
+    <BigNumber number="10 Days" label="Nellie Bly Undercover" />
+    <BigNumber number="1890" label="'How the Other Half Lives' Published" />
+    <BigNumber number="305 ft" label="Height of Statue of Liberty" />
+    <BigNumber number="45" label="Immigrant Nationalities Documented" footnote="By Jacob Riis, Lower East Side" />
   </Dashboard>
 </Story>
 
@@ -54,19 +54,19 @@
 <Story name="With Footnotes">
   <Dashboard>
     <BigNumber
-      number="34%"
-      label="Units with Mold"
-      footnote="Source: NYCHA Inspection Report 2023"
+      number="330,000"
+      label="People per Square Mile"
+      footnote="Lower East Side density, per Jacob Riis, 1890"
     />
     <BigNumber
-      number="18%"
-      label="Broken Elevators"
-      footnote="Source: NYCHA Inspection Report 2023"
+      number="10 Days"
+      label="Nellie Bly's Undercover Stay"
+      footnote="Blackwell's Island asylum, 1887"
     />
     <BigNumber
-      number="41%"
-      label="Heat Failures"
-      footnote="At least once per winter season"
+      number="1791"
+      label="Year Bill of Rights Ratified"
+      footnote="Including First Amendment press protections"
     />
   </Dashboard>
 </Story>
