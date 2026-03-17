@@ -24,7 +24,7 @@ Your site will automatically deploy to GitHub Pages when you push to the `main` 
 
 That's it! Every push to `main` will automatically build and deploy your site to `https://<your-github-username>.github.io/<your-repository-name>/`
 
-## Component Documentation (Storybook)
+## Documentation
 
 This template includes a [Storybook](https://storybook.js.org/) documentation app that demonstrates every component and the core SvelteKit patterns used in this project.
 
