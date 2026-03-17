@@ -15,6 +15,8 @@ const config = {
 
   // Addons enhance Storybook with extra features
   addons: [
+    // Autodocs renderer for Svelte stories
+    '@storybook/addon-docs',
     // Svelte CSF: allows writing stories as .svelte files (cleaner for slot/children content)
     '@storybook/addon-svelte-csf',
   ],
