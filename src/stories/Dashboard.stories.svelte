@@ -26,27 +26,27 @@
 <!-- Default: three BigNumber cards in a row -->
 <Story name="Default">
   <Dashboard>
-    <BigNumber number="42%" label="Response Rate" />
-    <BigNumber number="3,500" label="Residents Surveyed" />
-    <BigNumber number="$1.2M" label="Annual Budget Cut" />
+    <BigNumber number="305 ft" label="Height to Torch Tip" />
+    <BigNumber number="4M" label="Annual Visitors" />
+    <BigNumber number="225 tons" label="Weight of Copper & Steel" />
   </Dashboard>
 </Story>
 
 <!-- Two Stats: two-card layout -->
 <Story name="Two Stats">
   <Dashboard>
-    <BigNumber number="127" label="Schools Affected" />
-    <BigNumber number="1 in 5" label="Students Qualify" footnote="Source: NYC DOE, 2023" />
+    <BigNumber number="1886" label="Year Dedicated" />
+    <BigNumber number="354" label="Steps to the Crown" footnote="From pedestal base to crown" />
   </Dashboard>
 </Story>
 
 <!-- Four Stats: four-card layout that wraps on small screens -->
 <Story name="Four Stats">
   <Dashboard>
-    <BigNumber number="58%" label="Graduation Rate" />
-    <BigNumber number="2,100" label="Teachers Hired" />
-    <BigNumber number="$400M" label="Capital Investment" />
-    <BigNumber number="83" label="New Schools" footnote="Over the next 5 years" />
+    <BigNumber number="151 ft" label="Statue Height" />
+    <BigNumber number="25" label="Crown Windows" />
+    <BigNumber number="7" label="Crown Rays" />
+    <BigNumber number="1984" label="UNESCO Designation" footnote="World Heritage Site" />
   </Dashboard>
 </Story>
 
@@ -54,19 +54,19 @@
 <Story name="With Footnotes">
   <Dashboard>
     <BigNumber
-      number="34%"
-      label="Units with Mold"
-      footnote="Source: NYCHA Inspection Report 2023"
+      number="1883"
+      label="Year Poem Written"
+      footnote="Emma Lazarus, 'The New Colossus'"
     />
     <BigNumber
-      number="18%"
-      label="Broken Elevators"
-      footnote="Source: NYCHA Inspection Report 2023"
+      number="1903"
+      label="Year Plaque Mounted"
+      footnote="On the pedestal's inner wall"
     />
     <BigNumber
-      number="41%"
-      label="Heat Failures"
-      footnote="At least once per winter season"
+      number="3/32 in"
+      label="Copper Thickness"
+      footnote="About two stacked pennies"
     />
   </Dashboard>
 </Story>

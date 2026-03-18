@@ -37,16 +37,16 @@
     title: 'RELATED STORIES',
     links: [
       {
-        headline: 'Mayor Announces New Affordable Housing Initiative in Brooklyn',
-        href: '/housing-initiative',
+        headline: 'The Forgotten Poet: How Emma Lazarus Shaped America\'s Immigration Identity',
+        href: '/emma-lazarus-biography',
       },
       {
-        headline: 'City Council Approves $4.2 Billion Infrastructure Bill',
-        href: '/infrastructure-bill',
+        headline: 'Inside the Statue of Liberty\'s 354-Step Climb to the Crown',
+        href: '/statue-crown-tour',
       },
       {
-        headline: 'NYCHA Residents Demand Answers After Third Heating Failure This Winter',
-        href: '/nycha-heating',
+        headline: 'From France to New York Harbor: The Epic Journey of Lady Liberty',
+        href: '/statue-history',
       },
     ],
   }}
@@ -58,8 +58,8 @@
   args={{
     title: 'MORE ON THIS TOPIC',
     links: [
-      { headline: 'A History of Public Housing in New York City', href: '/history-nycha' },
-      { headline: 'What Experts Say About the Housing Crisis', href: '/expert-housing' },
+      { headline: 'The Full Text of "The New Colossus" by Emma Lazarus', href: '/new-colossus-text' },
+      { headline: 'Ellis Island and the Immigrant Experience', href: '/ellis-island' },
     ],
   }}
 />
@@ -70,7 +70,7 @@
   args={{
     title: 'RELATED STORIES',
     links: [
-      { headline: 'Budget Talks Stall as Council Deadline Approaches', href: '/budget-talks' },
+      { headline: 'Statue of Liberty Named UNESCO World Heritage Site in 1984', href: '/unesco-designation' },
     ],
   }}
 />

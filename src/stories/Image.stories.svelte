@@ -17,8 +17,9 @@
   import { defineMeta } from '@storybook/addon-svelte-csf';
   import Image from '$lib/components/Image.svelte';
 
-  // A freely-licensed placeholder image for demonstrations
-  const DEMO_IMAGE = 'https://picsum.photos/seed/nyc/1200/675';
+  // Freely-licensed Statue of Liberty image from Wikimedia Commons
+  const DEMO_IMAGE =
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/1200px-Statue_of_Liberty_7.jpg';
 
   const { Story } = defineMeta({
     title: 'Components/Image',
@@ -49,7 +50,7 @@
     },
     args: {
       src: DEMO_IMAGE,
-      alt: 'Aerial view of Manhattan skyline',
+      alt: 'The Statue of Liberty on Liberty Island in New York Harbor',
     },
   });
 </script>
@@ -59,9 +60,10 @@
   name="Default"
   args={{
     src: DEMO_IMAGE,
-    alt: 'Aerial view of Manhattan skyline',
-    caption: 'Lower Manhattan as seen from the Hudson River on a clear autumn morning.',
-    credit: 'Jane Smith / NYCity News Service',
+    alt: 'The Statue of Liberty on Liberty Island in New York Harbor',
+    caption:
+      'The Statue of Liberty, a gift from France dedicated in 1886, stands as a symbol of freedom and welcome in New York Harbor.',
+    credit: 'Wikimedia Commons / Public Domain',
     size: 'full',
   }}
 />
@@ -71,7 +73,7 @@
   name="No Caption"
   args={{
     src: DEMO_IMAGE,
-    alt: 'Aerial view of Manhattan skyline',
+    alt: 'The Statue of Liberty on Liberty Island in New York Harbor',
     size: 'full',
   }}
 />
@@ -81,8 +83,9 @@
   name="Caption Only"
   args={{
     src: DEMO_IMAGE,
-    alt: 'Aerial view of Manhattan skyline',
-    caption: 'The Manhattan skyline at dusk, photographed from Hoboken.',
+    alt: 'The Statue of Liberty on Liberty Island in New York Harbor',
+    caption:
+      'Lady Liberty lifts her torch above New York Harbor, greeting arriving visitors and immigrants alike.',
     size: 'full',
   }}
 />
@@ -91,10 +94,11 @@
 <Story
   name="Large Size"
   args={{
-    src: 'https://picsum.photos/seed/nyc/720/405',
-    alt: 'Street scene in Lower East Side',
-    caption: 'Pedestrians navigate the crowded sidewalks of the Lower East Side.',
-    credit: 'John Doe / NYCity News Service',
+    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/720px-Statue_of_Liberty_7.jpg',
+    alt: 'The Statue of Liberty seen from below against a blue sky',
+    caption:
+      'The statue rises 305 feet from the ground to the tip of her torch, built atop a pedestal designed by architect Richard Morris Hunt.',
+    credit: 'Wikimedia Commons / Public Domain',
     size: 'large',
   }}
 />
@@ -103,10 +107,11 @@
 <Story
   name="Medium Size"
   args={{
-    src: 'https://picsum.photos/seed/nyc2/480/270',
-    alt: 'Community board meeting',
-    caption: 'Community board members debate the rezoning proposal.',
-    credit: 'Maria Lopez / NYCity News Service',
+    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Lady_Liberty_under_a_blue_sky_%28cropped%29.jpg/480px-Lady_Liberty_under_a_blue_sky_%28cropped%29.jpg',
+    alt: 'Close-up of the Statue of Liberty crown and face',
+    caption:
+      'The crown features 25 windows and seven rays, representing the seven continents and oceans of the world.',
+    credit: 'Wikimedia Commons / CC BY-SA 2.0',
     size: 'medium',
   }}
 />
@@ -115,10 +120,10 @@
 <Story
   name="Small Size"
   args={{
-    src: 'https://picsum.photos/seed/portrait/320/320',
-    alt: 'Portrait of community activist',
-    caption: 'Rosa Martinez, housing rights advocate.',
-    credit: 'NYCity News Service',
+    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Emma_Lazarus.jpg/320px-Emma_Lazarus.jpg',
+    alt: 'Portrait of poet Emma Lazarus',
+    caption: 'Emma Lazarus (1849–1887), author of "The New Colossus."',
+    credit: 'Wikimedia Commons / Public Domain',
     size: 'small',
   }}
 />
