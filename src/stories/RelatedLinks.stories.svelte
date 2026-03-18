@@ -37,16 +37,16 @@
     title: 'RELATED STORIES',
     links: [
       {
-        headline: 'The First Amendment at 230: What Five Freedoms Mean Today',
-        href: '/first-amendment',
+        headline: 'Mayor Announces New Affordable Housing Initiative in Brooklyn',
+        href: '/housing-initiative',
       },
       {
-        headline: 'Emma Lazarus and the Making of "The New Colossus"',
-        href: '/emma-lazarus',
+        headline: 'City Council Approves $4.2 Billion Infrastructure Bill',
+        href: '/infrastructure-bill',
       },
       {
-        headline: 'How Jacob Riis Changed the Way New York Saw Itself',
-        href: '/jacob-riis',
+        headline: 'NYCHA Residents Demand Answers After Third Heating Failure This Winter',
+        href: '/nycha-heating',
       },
     ],
   }}
@@ -58,8 +58,8 @@
   args={{
     title: 'MORE ON THIS TOPIC',
     links: [
-      { headline: "Nellie Bly's Undercover Journalism and Its Lasting Legacy", href: '/nellie-bly' },
-      { headline: 'Langston Hughes and the Harlem Renaissance', href: '/langston-hughes' },
+      { headline: 'A History of Public Housing in New York City', href: '/history-nycha' },
+      { headline: 'What Experts Say About the Housing Crisis', href: '/expert-housing' },
     ],
   }}
 />
@@ -70,7 +70,7 @@
   args={{
     title: 'RELATED STORIES',
     links: [
-      { headline: "E.B. White's New York: A City That Belongs to the World", href: '/eb-white-new-york' },
+      { headline: 'Budget Talks Stall as Council Deadline Approaches', href: '/budget-talks' },
     ],
   }}
 />

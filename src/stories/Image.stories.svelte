@@ -18,7 +18,7 @@
   import Image from '$lib/components/Image.svelte';
 
   // A freely-licensed placeholder image for demonstrations
-  const DEMO_IMAGE = 'https://picsum.photos/seed/liberty/1200/675';
+  const DEMO_IMAGE = 'https://picsum.photos/seed/nyc/1200/675';
 
   const { Story } = defineMeta({
     title: 'Components/Image',
@@ -49,7 +49,7 @@
     },
     args: {
       src: DEMO_IMAGE,
-      alt: 'View of New York Harbor at dawn',
+      alt: 'Aerial view of Manhattan skyline',
     },
   });
 </script>
@@ -59,9 +59,9 @@
   name="Default"
   args={{
     src: DEMO_IMAGE,
-    alt: 'View of New York Harbor at dawn',
-    caption: 'The harbor where generations of immigrants first glimpsed New York City and its famous skyline.',
-    credit: 'Demo Image / NYCity News Service',
+    alt: 'Aerial view of Manhattan skyline',
+    caption: 'Lower Manhattan as seen from the Hudson River on a clear autumn morning.',
+    credit: 'Jane Smith / NYCity News Service',
     size: 'full',
   }}
 />
@@ -71,7 +71,7 @@
   name="No Caption"
   args={{
     src: DEMO_IMAGE,
-    alt: 'View of New York Harbor at dawn',
+    alt: 'Aerial view of Manhattan skyline',
     size: 'full',
   }}
 />
@@ -81,8 +81,8 @@
   name="Caption Only"
   args={{
     src: DEMO_IMAGE,
-    alt: 'View of New York Harbor at dawn',
-    caption: '"I lift my lamp beside the golden door," Emma Lazarus wrote in her 1883 sonnet "The New Colossus."',
+    alt: 'Aerial view of Manhattan skyline',
+    caption: 'The Manhattan skyline at dusk, photographed from Hoboken.',
     size: 'full',
   }}
 />
@@ -91,10 +91,10 @@
 <Story
   name="Large Size"
   args={{
-    src: 'https://picsum.photos/seed/harlem/720/405',
-    alt: 'A neighborhood street in upper Manhattan',
-    caption: 'A neighborhood street in upper Manhattan, where Langston Hughes once lived and wrote.',
-    credit: 'Demo Image / NYCity News Service',
+    src: 'https://picsum.photos/seed/nyc/720/405',
+    alt: 'Street scene in Lower East Side',
+    caption: 'Pedestrians navigate the crowded sidewalks of the Lower East Side.',
+    credit: 'John Doe / NYCity News Service',
     size: 'large',
   }}
 />
@@ -103,10 +103,10 @@
 <Story
   name="Medium Size"
   args={{
-    src: 'https://picsum.photos/seed/tenement/480/270',
-    alt: 'A historic tenement building on the Lower East Side',
-    caption: 'A historic tenement building of the type documented by journalist Jacob Riis in the 1890s.',
-    credit: 'Demo Image / NYCity News Service',
+    src: 'https://picsum.photos/seed/nyc2/480/270',
+    alt: 'Community board meeting',
+    caption: 'Community board members debate the rezoning proposal.',
+    credit: 'Maria Lopez / NYCity News Service',
     size: 'medium',
   }}
 />
@@ -115,9 +115,9 @@
 <Story
   name="Small Size"
   args={{
-    src: 'https://picsum.photos/seed/pressroom/320/320',
-    alt: "A journalist's notebook and pen",
-    caption: 'A reporter\'s notebook — symbol of the press freedoms protected by the First Amendment.',
+    src: 'https://picsum.photos/seed/portrait/320/320',
+    alt: 'Portrait of community activist',
+    caption: 'Rosa Martinez, housing rights advocate.',
     credit: 'NYCity News Service',
     size: 'small',
   }}
