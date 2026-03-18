@@ -36,30 +36,30 @@
 </script>
 
 <!-- Default: percentage stat with a label -->
-<Story name="Default" args={{ number: '42%', label: 'Response Rate' }} />
+<Story name="Default" args={{ number: '5', label: 'Freedoms in the First Amendment' }} />
 
 <!-- With Footnote: includes optional clarifying text -->
 <Story
   name="With Footnote"
   args={{
-    number: '3,500',
-    label: 'Residents Surveyed',
-    footnote: 'Data collected March–April 2024',
+    number: '72 Days',
+    label: "Nellie Bly's World Record",
+    footnote: 'Around-the-world journey completed 1889–1890',
   }}
 />
 
-<!-- Dollar Amount: shows currency formatting -->
-<Story name="Dollar Amount" args={{ number: '$1.2M', label: 'Annual Budget Cut' }} />
+<!-- Year: shows a four-digit year as a prominent stat -->
+<Story name="Year" args={{ number: '1883', label: '"The New Colossus" Written by Emma Lazarus' }} />
 
 <!-- Large Count: whole number example -->
-<Story name="Large Count" args={{ number: '127', label: 'Schools Affected' }} />
+<Story name="Large Count" args={{ number: '330,000', label: 'People per Square Mile' }} />
 
 <!-- Ratio: shows ratio/fraction examples -->
 <Story
   name="Ratio"
   args={{
-    number: '1 in 5',
-    label: 'Students Qualify',
-    footnote: 'Source: NYC Dept. of Education, 2023',
+    number: '1 in 3',
+    label: 'New Yorkers Born Outside the U.S.',
+    footnote: 'Reflecting a city of newcomers',
   }}
 />
