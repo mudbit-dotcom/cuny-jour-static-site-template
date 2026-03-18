@@ -39,9 +39,9 @@
 <Story
   name="Default"
   args={{
-    headline: 'City Council Approves $112 Billion Budget Amid Housing Crisis',
-    byline: 'Jane Smith and John Doe',
-    pubDate: '2024-06-15',
+    headline: 'How Emma Lazarus Gave Voice to the Statue of Liberty',
+    byline: 'Sarah Chen and Michael Rivera',
+    pubDate: '1883-11-02',
   }}
 />
 
@@ -49,7 +49,7 @@
 <Story
   name="Headline Only"
   args={{
-    headline: 'Breaking: Mayor Announces Emergency Transit Funding',
+    headline: '"The New Colossus" Turns 140: The Poem That Defined a Nation of Immigrants',
   }}
 />
 
@@ -57,8 +57,8 @@
 <Story
   name="With Byline Only"
   args={{
-    headline: 'CUNY Enrollment Hits Record High for Third Consecutive Year',
-    byline: 'Maria Lopez',
+    headline: 'From Forgotten Sonnet to National Treasure: The Journey of "The New Colossus"',
+    byline: 'Emma Lazarus',
   }}
 />
 
@@ -66,8 +66,8 @@
 <Story
   name="With Date Only"
   args={{
-    headline: 'Report: One in Five NYC Students Lacks Reliable Internet Access',
-    pubDate: '2024-03-01',
+    headline: 'Statue of Liberty Dedicated in New York Harbor Amid Grand Ceremony',
+    pubDate: '1886-10-28',
   }}
 />
 
@@ -76,8 +76,8 @@
   name="Long Headline"
   args={{
     headline:
-      'Investigation Reveals Decades of Deferred Maintenance Left Hundreds of Public Housing Residents Without Heat During Coldest Winter on Record',
-    byline: 'The NYCity News Service Investigative Team',
-    pubDate: '2024-02-14',
+      '"Give Me Your Tired, Your Poor": How a Poem Written to Raise Money for a Pedestal Became the Most Famous Words in American Immigration History',
+    byline: 'The NYCity News Service History Desk',
+    pubDate: '1903-05-06',
   }}
 />

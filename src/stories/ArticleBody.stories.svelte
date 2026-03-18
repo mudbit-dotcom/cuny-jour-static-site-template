@@ -26,19 +26,21 @@
 <Story name="Default">
   <ArticleBody>
     <p>
-      New York City officials announced Tuesday a sweeping overhaul of the city's public housing
-      inspection program, following a year-long investigation by the NYCity News Service that
-      revealed widespread failures in the system meant to keep residents safe.
+      In 1883, a young poet named Emma Lazarus wrote a sonnet to help raise funds for the
+      construction of the pedestal that would hold the Statue of Liberty. That poem, "The New
+      Colossus," would go on to become one of the most recognized works in American literature —
+      and the defining statement of the nation's identity as a haven for immigrants.
     </p>
     <p>
-      The changes, which take effect immediately, will require all New York City Housing Authority
-      buildings to undergo independent inspections every six months, up from the current annual
-      schedule. The city will hire 200 additional inspectors to meet the new mandate.
+      Lazarus, born in 1849 to a wealthy Sephardic Jewish family in New York City, was already an
+      accomplished writer by the time she was asked to contribute to the fundraising effort. But it
+      was her encounters with Jewish refugees fleeing pogroms in Eastern Europe that gave the poem
+      its emotional urgency.
     </p>
     <p>
-      "Every New Yorker deserves a safe home," said Mayor Adams at a press conference in Brooklyn.
-      "These reforms will hold NYCHA accountable and restore trust with residents who have waited
-      too long for change."
+      "Give me your tired, your poor, your huddled masses yearning to breathe free," she wrote,
+      imagining the statue as a "Mother of Exiles" — not a monument to military conquest like the
+      ancient Colossus of Rhodes, but a beacon of welcome for the world's displaced and dispossessed.
     </p>
   </ArticleBody>
 </Story>
@@ -47,18 +49,21 @@
 <Story name="With Subheadings">
   <ArticleBody>
     <p>
-      The city announced new affordable housing initiatives on Wednesday, promising to build 50,000
-      units over the next decade.
+      The Statue of Liberty, a gift from France to the United States, was dedicated on October 28,
+      1886. It would take another 17 years before Emma Lazarus's words found their permanent home
+      at its base.
     </p>
-    <h2>What the Plan Includes</h2>
+    <h2>A Gift Between Nations</h2>
     <p>
-      Under the proposal, 30% of new units will be reserved for families earning less than 40% of
-      the area median income, with the remainder targeted at moderate-income households.
+      French sculptor Frédéric Auguste Bartholdi designed the statue, while Alexandre Gustave
+      Eiffel — who would later build his famous tower — engineered the internal iron framework.
+      The copper exterior, just 3/32 of an inch thick, was assembled on a massive iron skeleton.
     </p>
-    <h3>Funding Sources</h3>
+    <h3>The Forgotten Poem</h3>
     <p>
-      Officials said the $4.2 billion initiative will be funded through a combination of federal
-      grants, city bonds, and public-private partnerships.
+      Lazarus died in 1887, just a year after the statue's dedication, and her sonnet was largely
+      forgotten. In 1903, a friend named Georgina Schuyler successfully campaigned to have the
+      poem mounted on a bronze plaque inside the pedestal, ensuring its words would endure.
     </p>
   </ArticleBody>
 </Story>
@@ -67,17 +72,18 @@
 <Story name="With Blockquote">
   <ArticleBody>
     <p>
-      Advocates have long pushed for the changes, saying the current system leaves too many
-      residents in dangerous conditions.
+      Emma Lazarus's "The New Colossus" reimagined the Statue of Liberty not as a symbol of
+      imperial power, but as a welcoming mother figure standing at the gates of a new world.
     </p>
     <blockquote>
       <p>
-        "This is a historic moment for public housing residents across the five boroughs. We
-        demanded accountability, and today the city delivered."
+        "Give me your tired, your poor, / Your huddled masses yearning to breathe free, / The
+        wretched refuse of your teeming shore. / Send these, the homeless, tempest-tost to me, /
+        I lift my lamp beside the golden door!"
       </p>
     </blockquote>
     <p>
-      — Maria Gonzalez, director of the NYC Housing Justice Coalition
+      — Emma Lazarus, "The New Colossus" (1883)
     </p>
   </ArticleBody>
 </Story>
@@ -86,17 +92,18 @@
 <Story name="With Links and Lists">
   <ArticleBody>
     <p>
-      The report identified three main issues affecting residents across all five boroughs. Read the
-      full findings on the <a href="https://www.nyc.gov">city's website</a>.
+      The Statue of Liberty remains one of the most visited landmarks in the world. Learn more at
+      the <a href="https://www.nps.gov/stli/">National Park Service website</a>.
     </p>
     <ul>
-      <li>Mold and moisture in 34% of inspected units</li>
-      <li>Broken elevators in 18% of high-rise buildings</li>
-      <li>Heating failures during at least one winter month in 41% of properties</li>
+      <li>Height from ground to torch: 305 feet (93 meters)</li>
+      <li>Weight of copper and steel: approximately 225 tons</li>
+      <li>Number of steps from base to crown: 354</li>
+      <li>Annual visitors: approximately 4 million</li>
     </ul>
     <p>
-      Officials said repairs would be prioritized based on severity and the number of residents
-      affected.
+      The statue was designated a UNESCO World Heritage Site in 1984 and continues to serve as a
+      global symbol of freedom and democracy.
     </p>
   </ArticleBody>
 </Story>

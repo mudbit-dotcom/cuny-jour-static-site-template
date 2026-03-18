@@ -35,31 +35,31 @@
   });
 </script>
 
-<!-- Default: percentage stat with a label -->
-<Story name="Default" args={{ number: '42%', label: 'Response Rate' }} />
+<!-- Default: height stat with a label -->
+<Story name="Default" args={{ number: '305 ft', label: 'Height to Torch Tip' }} />
 
 <!-- With Footnote: includes optional clarifying text -->
 <Story
   name="With Footnote"
   args={{
-    number: '3,500',
-    label: 'Residents Surveyed',
-    footnote: 'Data collected March–April 2024',
+    number: '354',
+    label: 'Steps to the Crown',
+    footnote: 'From pedestal base to crown level',
   }}
 />
 
-<!-- Dollar Amount: shows currency formatting -->
-<Story name="Dollar Amount" args={{ number: '$1.2M', label: 'Annual Budget Cut' }} />
+<!-- Large Number: shows large count formatting -->
+<Story name="Large Number" args={{ number: '4M', label: 'Annual Visitors' }} />
 
-<!-- Large Count: whole number example -->
-<Story name="Large Count" args={{ number: '127', label: 'Schools Affected' }} />
+<!-- Weight: whole number example -->
+<Story name="Weight" args={{ number: '225 tons', label: 'Weight of Copper & Steel' }} />
 
-<!-- Ratio: shows ratio/fraction examples -->
+<!-- Year: shows date examples -->
 <Story
-  name="Ratio"
+  name="Year"
   args={{
-    number: '1 in 5',
-    label: 'Students Qualify',
-    footnote: 'Source: NYC Dept. of Education, 2023',
+    number: '1886',
+    label: 'Year Dedicated',
+    footnote: 'Dedicated October 28, 1886',
   }}
 />
