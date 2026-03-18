@@ -26,21 +26,19 @@
 <Story name="Default">
   <ArticleBody>
     <p>
-      The First Amendment to the United States Constitution, ratified in December 1791 as part of
-      the Bill of Rights, guarantees five essential freedoms: religion, speech, the press, peaceful
-      assembly, and the right to petition the government.
+      New York City officials announced Tuesday a sweeping overhaul of the city's public housing
+      inspection program, following a year-long investigation by the NYCity News Service that
+      revealed widespread failures in the system meant to keep residents safe.
     </p>
     <p>
-      For journalists, the press clause carries particular weight. Courts have long recognized that
-      a free press serves as a watchdog on government, giving citizens the information they need to
-      hold power accountable. Without it, the other freedoms enshrined in the Constitution would be
-      far harder to defend.
+      The changes, which take effect immediately, will require all New York City Housing Authority
+      buildings to undergo independent inspections every six months, up from the current annual
+      schedule. The city will hire 200 additional inspectors to meet the new mandate.
     </p>
     <p>
-      "Congress shall make no law respecting an establishment of religion, or prohibiting the free
-      exercise thereof; or abridging the freedom of speech, or of the press," the amendment reads.
-      In the centuries since, those forty-five words have been tested, interpreted, and reaffirmed
-      in courtrooms across the country.
+      "Every New Yorker deserves a safe home," said Mayor Adams at a press conference in Brooklyn.
+      "These reforms will hold NYCHA accountable and restore trust with residents who have waited
+      too long for change."
     </p>
   </ArticleBody>
 </Story>
@@ -49,21 +47,18 @@
 <Story name="With Subheadings">
   <ArticleBody>
     <p>
-      New York City has always been at once many things: a harbor of refuge, a stage for ambition,
-      a place where the world's currents converge. It is the city of the newcomer and the longtime
-      resident, of the street vendor and the financier.
+      The city announced new affordable housing initiatives on Wednesday, promising to build 50,000
+      units over the next decade.
     </p>
-    <h2>A City of Arrivals</h2>
+    <h2>What the Plan Includes</h2>
     <p>
-      For generations, newcomers have poured into New York carrying little more than courage and a
-      willingness to remake themselves. The harbor welcomed them first — and the city tested them
-      afterward, offering neither pity nor guarantee, only possibility.
+      Under the proposal, 30% of new units will be reserved for families earning less than 40% of
+      the area median income, with the remainder targeted at moderate-income households.
     </p>
-    <h3>The Island at the Center of the World</h3>
+    <h3>Funding Sources</h3>
     <p>
-      The narrow island of Manhattan has served as a proving ground for dreamers from every corner
-      of the globe. Its capacity to absorb and inspire remains, by any measure, its most
-      astonishing feature.
+      Officials said the $4.2 billion initiative will be funded through a combination of federal
+      grants, city bonds, and public-private partnerships.
     </p>
   </ArticleBody>
 </Story>
@@ -72,18 +67,17 @@
 <Story name="With Blockquote">
   <ArticleBody>
     <p>
-      Near the entrance to New York Harbor stands a figure known to millions: a robed woman raising
-      a torch aloft, her pedestal carrying words that became the nation's most recognizable welcome.
+      Advocates have long pushed for the changes, saying the current system leaves too many
+      residents in dangerous conditions.
     </p>
     <blockquote>
       <p>
-        "Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched
-        refuse of your teeming shore. Send these, the homeless, tempest-tost to me, I lift my lamp
-        beside the golden door!"
+        "This is a historic moment for public housing residents across the five boroughs. We
+        demanded accountability, and today the city delivered."
       </p>
     </blockquote>
     <p>
-      — Emma Lazarus, "The New Colossus," 1883
+      — Maria Gonzalez, director of the NYC Housing Justice Coalition
     </p>
   </ArticleBody>
 </Story>
@@ -92,19 +86,17 @@
 <Story name="With Links and Lists">
   <ArticleBody>
     <p>
-      In the 1880s, journalist and photographer Jacob Riis ventured into the tenements of
-      Manhattan's Lower East Side with a camera and a reporter's eye for injustice. Read about his
-      work at the <a href="https://www.loc.gov">Library of Congress</a>.
+      The report identified three main issues affecting residents across all five boroughs. Read the
+      full findings on the <a href="https://www.nyc.gov">city's website</a>.
     </p>
     <ul>
-      <li>Families of six or more sharing a single windowless room</li>
-      <li>Buildings without running water or adequate sanitation</li>
-      <li>Child laborers as young as six working in garment factories and sweatshops</li>
+      <li>Mold and moisture in 34% of inspected units</li>
+      <li>Broken elevators in 18% of high-rise buildings</li>
+      <li>Heating failures during at least one winter month in 41% of properties</li>
     </ul>
     <p>
-      "Long ago it was said that one half of the world does not know how the other half lives,"
-      Riis wrote in the introduction to his 1890 book. His photographs made that ignorance harder
-      to sustain.
+      Officials said repairs would be prioritized based on severity and the number of residents
+      affected.
     </p>
   </ArticleBody>
 </Story>

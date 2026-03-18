@@ -39,9 +39,9 @@
 <Story
   name="Default"
   args={{
-    headline: 'First Amendment at 230: Press Freedom Remains Cornerstone of American Democracy',
-    byline: 'Emma L. Warren and Jack Hughes',
-    pubDate: '2024-09-25',
+    headline: 'City Council Approves $112 Billion Budget Amid Housing Crisis',
+    byline: 'Jane Smith and John Doe',
+    pubDate: '2024-06-15',
   }}
 />
 
@@ -49,7 +49,7 @@
 <Story
   name="Headline Only"
   args={{
-    headline: "Statue of Liberty's Bronze Tablet Bears Emma Lazarus's Timeless Plea to the World",
+    headline: 'Breaking: Mayor Announces Emergency Transit Funding',
   }}
 />
 
@@ -57,8 +57,8 @@
 <Story
   name="With Byline Only"
   args={{
-    headline: "A Century After 'How the Other Half Lives,' Jacob Riis's Legacy Endures",
-    byline: 'Rosa Riis',
+    headline: 'CUNY Enrollment Hits Record High for Third Consecutive Year',
+    byline: 'Maria Lopez',
   }}
 />
 
@@ -66,8 +66,8 @@
 <Story
   name="With Date Only"
   args={{
-    headline: "Nellie Bly's Ten-Day Journey Transformed American Investigative Reporting",
-    pubDate: '2024-11-14',
+    headline: 'Report: One in Five NYC Students Lacks Reliable Internet Access',
+    pubDate: '2024-03-01',
   }}
 />
 
@@ -76,7 +76,7 @@
   name="Long Headline"
   args={{
     headline:
-      "From Harlem to the Harbor: How the Dreams and Struggles of New York's Immigrants and Residents Shaped a City That Belongs to the World",
+      'Investigation Reveals Decades of Deferred Maintenance Left Hundreds of Public Housing Residents Without Heat During Coldest Winter on Record',
     byline: 'The NYCity News Service Investigative Team',
     pubDate: '2024-02-14',
   }}
