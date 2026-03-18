@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@storybook/addon-a11y": "^10.2.19",
     "@storybook/addon-docs": "^10.2.19",
     "@storybook/addon-svelte-csf": "^5.0.11",
     "@storybook/sveltekit": "^10.2.19",
