@@ -10,15 +10,17 @@
 
 /** @type {import('@storybook/sveltekit').StorybookConfig} */
 const config = {
-  // Story files: look for .stories.svelte files in the src directory
-  stories: ["../src/**/*.stories.svelte"],
+  // Story files: look for .stories.svelte and .mdx files in the src directory
+  stories: ["../src/**/*.stories.svelte", "../src/**/*.mdx"],
 
   // Addons enhance Storybook with extra features
   addons: [
-    // Autodocs renderer for Svelte stories
+    // Autodocs renderer for Svelte stories and MDX documentation pages
     "@storybook/addon-docs",
     // Svelte CSF: allows writing stories as .svelte files (cleaner for slot/children content)
     "@storybook/addon-svelte-csf",
+    // Accessibility: runs axe-core against every story to surface WCAG violations
+    "@storybook/addon-a11y",
   ],
 
   // Use the SvelteKit framework (handles $app/* mocks, $lib aliases, SCSS, etc.)

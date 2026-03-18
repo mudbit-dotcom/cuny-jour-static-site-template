@@ -26,6 +26,34 @@ const preview = {
         { name: 'CUNY Blue', value: '#0033A1' },
       ],
     },
+
+    // Viewport presets for testing responsive layouts.
+    // Use the toolbar icon (or keyboard shortcut) to switch between sizes.
+    viewport: {
+      defaultViewport: 'responsive',
+      viewports: {
+        mobile: {
+          name: 'Mobile (375px)',
+          styles: { width: '375px', height: '812px' },
+          type: 'mobile',
+        },
+        tablet: {
+          name: 'Tablet (768px)',
+          styles: { width: '768px', height: '1024px' },
+          type: 'tablet',
+        },
+        desktop: {
+          name: 'Desktop (1280px)',
+          styles: { width: '1280px', height: '900px' },
+          type: 'desktop',
+        },
+        wide: {
+          name: 'Wide (1440px)',
+          styles: { width: '1440px', height: '900px' },
+          type: 'desktop',
+        },
+      },
+    },
   },
 };
 
